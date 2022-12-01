@@ -12,8 +12,8 @@ import {
   doc,
 } from "firebase/firestore";
 
-import { MyNavbar } from "./Navbar";
-import { Footer } from "./Footer";
+
+
 
 const Home = () => {
   const [Users1, setUsers1] = useState([]);
@@ -60,7 +60,7 @@ const Home = () => {
 
   return (
     <>
-      <MyNavbar />
+      
       <Container>
         <Row>
           <Col
@@ -98,8 +98,6 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-      <Footer />
-     
      
     </>
   );
