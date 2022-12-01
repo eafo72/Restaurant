@@ -1,8 +1,6 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.css";
 import { Container, Col, Row } from "react-bootstrap";
-import "./css/Social_icons.css";
-import "./css/Footer_dark.css";
 import "./fonts/ionicons.min.css";
 import logo_footer from "./images/logo_restaurant.png";
 

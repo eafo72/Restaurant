@@ -1,3 +1,13 @@
+/* NAVBAR */
+.linkformat {
+    color:black !important;
+    text-decoration: none;
+}
+.linkformat:hover{
+    text-decoration: underline;
+}
+
+/*FOOTER*/
 .footer-dark {
     padding: 50px 20px;
     color: #f0f9ff;
@@ -115,3 +125,30 @@
         text-align: left;
     }
 }
+
+/* SOCIAL ICONS */
+.social-icons {
+    color: #313437;
+    background-color: #fff;
+    text-align: center;
+    padding: 0px 0;
+  }
+  
+  @media (max-width:767px) {
+    .social-icons {
+      padding: 50px 0;
+    }
+  }
+  
+  .social-icons i {
+    font-size: 28px;
+    display: inline-block;
+    color: #757980;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #c8ced7;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 60px;
+  }
