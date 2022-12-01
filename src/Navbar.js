@@ -13,15 +13,13 @@ export function MyNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link>
-              <Link className="linkformat" to="/Restaurant">Home</Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link className="linkformat" to="/Restaurant/contacto">Contacto</Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link className="linkformat" to="/Restaurant/reservar">Reservar</Link>
-            </Nav.Link>
+            
+              <Link className="nav-link linkformat" to="/Restaurant">Home</Link>
+            
+              <Link className="nav-link linkformat" to="/Restaurant/contacto">Contacto</Link>
+            
+              <Link className="nav-link linkformat" to="/Restaurant/reservar">Reservar</Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
